@@ -48,14 +48,19 @@ const loginHandler = () => {
   margin: 0;
   width: 100%;
   background-color: #ffffff;
-  margin-bottom: 16px;
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
   &:hover {
     box-shadow: 0px 0 8px 0px #eeeeee;
   }
   .layout-header-box {
     height: 56px;
     display: flex;
+    width: 1440px;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
 

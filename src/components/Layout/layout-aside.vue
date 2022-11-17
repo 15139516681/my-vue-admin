@@ -1,5 +1,5 @@
 <template>
-  <el-aside width="200px" class="layout-aside">
+  <el-aside width="204px" class="layout-aside">
     <el-scrollbar>
       <el-menu
         :router="true"
@@ -70,7 +70,8 @@ getRouter();
 </script>
 <style lang="scss" scoped>
 .layout-aside {
-  margin-right: 20px;
+  margin-right: 16px;
+  margin-top: 16px;
   background-color: #fff;
   :deep(.el-menu-item-group__title) {
     padding: 0;
