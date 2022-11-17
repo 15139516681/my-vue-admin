@@ -26,24 +26,6 @@ const dashboard = [
           title: "页面统计",
         },
       },
-      {
-        name: "trade",
-        path: "trade",
-        component: () => import("@/components/FrameView/index.vue"),
-        meta: {
-          title: "交易看板",
-        },
-        children: [
-          {
-            name: "trades",
-            path: "trades",
-            component: () => import("@/views/dashboard/trade/index.vue"),
-            meta: {
-              title: "交易统计",
-            },
-          },
-        ],
-      },
     ],
   },
 ];
